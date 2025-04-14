@@ -1,0 +1,43 @@
+.filter-container {
+    position: relative;
+  }
+  
+  .filter-popup {
+    position: absolute;
+    top: 100%;  // Muncul di bawah tombol filter
+    left: 0;
+    background: white;
+    border: 3px solid green;
+    padding: 15px;
+    width: 200px;
+    z-index: 10;
+    
+    // Menyebabkan border atas menimpa tombol filter
+    margin-top: -3px; 
+    border-radius: 0 0 8px 8px; // Membuat sudut bawah lebih halus
+  
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .categories {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .category {
+      border: 2px solid green;
+      padding: 5px;
+      cursor: pointer;
+    }
+  
+    .apply-button {
+      border: 2px solid orange;
+      padding: 5px 10px;
+      cursor: pointer;
+      float: right;
+    }
+  }
+  

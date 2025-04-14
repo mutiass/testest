@@ -1,0 +1,20 @@
+.container { display: flex; flex-direction: column; align-items: center; }
+
+.product-list { display: grid; grid-template-columns: repeat(5, 1fr); /* Maksimal 5 kolom per baris / gap: 20px; / Jarak antar produk */ justify-content: center; }
+
+.product-card { width: 200px; border: 2px solid #6c93c4; /* Warna biru */ padding: 10px; text-align: center; }
+
+.product-image { width: 150px; height: 150px; object-fit: cover; border: none; outline: none; }
+
+.product-info { border: 1px solid gray; padding: 5px; margin-top: 5px; border: none; outline: none; }
+
+.product-name { font-weight: bold; font-size: 16px; color: rgb(24, 168, 225); }
+
+.product-price { color: green; font-weight: bold; }
+
+.button-container { display: flex; justify-content: space-between; margin-top: 10px; }
+
+.button-edit { background-color: yellow; padding: 5px 15px; border: 1px solid blue; cursor: pointer; }
+
+.button-delete { background-color: red; color: white; padding: 5px 15px; border: 1px solid blue; cursor: pointer; }
+

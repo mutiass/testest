@@ -1,0 +1,69 @@
+/* src/styles/category.scss */
+.category-page {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+  
+    .category-form {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+  
+      input {
+        padding: 0.5rem;
+        flex: 1;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+      }
+  
+      button {
+        padding: 0.5rem 1rem;
+        background-color: seagreen;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: mediumseagreen;
+        }
+      }
+    }
+  
+    .category-list {
+      table {
+        width: 100%;
+        border-collapse: collapse;
+  
+        th, td {
+          padding: 0.75rem;
+          border: 1px solid #ddd;
+          text-align: left;
+        }
+  
+        th {
+          background-color: #f4f4f4;
+        }
+  
+        button {
+          padding: 0.3rem 0.6rem;
+          background-color: crimson;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: darkred;
+          }
+        }
+      }
+    }
+  }
+  

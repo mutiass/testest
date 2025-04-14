@@ -1,0 +1,86 @@
+/* EditPage.scss */
+.edit-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7fafc;
+  padding: 20px;
+}
+
+.form-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1200px;
+}
+
+.form-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form {
+  width: 50%;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4a5568;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d2d6dc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.submit-btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  background-color: #48bb78;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #38a169;
+}
+
+.image-preview {
+  width: 50%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
