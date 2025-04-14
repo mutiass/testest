@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "../styles/LoginPage.scss" // Kalau kamu pakai CSS khusus
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/auth/login"; // URL API untuk login
+const API_URL = process.env.REACT_APP_API_URL_LOGIN || "http://localhost:5000/auth/login"; // URL API untuk login
 
 const LoginPage = () => {
   const navigate = useNavigate();
